@@ -12,9 +12,9 @@ get '/todo' do
 end
 
 get '/schedule' do
-  @schedule = [ ['8pm',    'Doors open'],
+  @schedule = [ ['8.00pm',    'Doors open'],
                 ['8.30pm', 'Champagne and canapes served'],
-                ['9pm',    'Speech'],
+                ['9.00pm',    'Speech'],
                 ['9.30pm', 'Painting unveiled'],
                 ['9.40pm', 'Live band plays'] ]
 
